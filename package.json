@@ -1,0 +1,47 @@
+{
+  "name": "msa-ortholog",
+  "version": "0.1.0",
+  "description": "Fetch orthologous protein sequences from Ensembl and run multiple sequence alignment (MSA) via EBI Clustal Omega.",
+  "main": "dist/msa.js",
+  "module": "dist/msa.js",
+  "types": "dist/msa.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "bioinformatics",
+    "msa",
+    "multiple-sequence-alignment",
+    "ensembl",
+    "clustal-omega",
+    "ortholog",
+    "protein",
+    "typescript",
+    "nextjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "next": ">=13"
+  },
+  "peerDependenciesMeta": {
+    "next": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "next": "^14.2.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.0"
+  }
+}
